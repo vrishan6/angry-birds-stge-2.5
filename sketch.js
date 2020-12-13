@@ -9,7 +9,7 @@ var backgroundImg,platform;
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
 }
-
+//background
 function setup(){
     var canvas = createCanvas(1200,400);
     engine = Engine.create();
